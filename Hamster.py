@@ -55,6 +55,6 @@ while True:
 		try:
 			clicker_tap(data)
 		except Exception as e:
-			print('Error: '+ e)
+			continue
 	print('='*40)
 			

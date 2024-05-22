@@ -39,7 +39,7 @@ def clicker_tap(tok):
 	url = "https://api.hamsterkombat.io/clicker/tap"
 	availableTaps = sync(tok)
 	payload = {
-  "count": 100,
+  "count": 1000,
   "availableTaps": availableTaps,
   "timestamp": int(time.time())
 }
